@@ -1,0 +1,434 @@
+@media screen and (min-width: 1194px) {
+  /* ______________MAIN CONTENT________________ */
+
+  .main-content-wrapper {
+    width: calc(100% - 200px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  /* ______________Produkte________________ */
+
+  .content-main {
+    width: calc(95% - 30px);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: calc(100% - 80px);
+    margin-top: 65px;
+    overflow: scroll;
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    padding-bottom: 55px;
+  }
+
+  .group-name {
+    font-size: 35px;
+    position: relative;
+    float: left;
+    width: 100%;
+    border: none;
+    margin-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    border-top: 1px solid #393939;
+  }
+
+  .left-content {
+    position: absolute;
+    left: 0;
+    width: 49%;
+    min-width: 440px;
+    height: 100%;
+  }
+  .right-content {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    min-width: 410px;
+  }
+
+  .product-wrapper {
+    width: 27.5%;
+    height: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #2f2f2f;
+  }
+
+  .ingredients-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-bottom: 80px;
+  }
+
+  .product-image {
+    width: auto;
+    height: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+
+  .product-name {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .product-overlay {
+    width: 28%;
+    height: 150px;
+    position: absolute;
+    z-index: 10000;
+    background-color: #000000d7;
+    display: none;
+    border-radius: 5px;
+  }
+
+  .is-in-cart {
+    display: block !important;
+  }
+
+  .product-icon {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg)
+      brightness(104%) contrast(108%);
+    z-index: 1000000;
+  }
+
+  .button-icon {
+    width: 20px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg)
+      brightness(104%) contrast(108%);
+  }
+
+  .group-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .group-wrapper-name {
+    position: relative;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid grey;
+  }
+
+  .ck-button {
+    margin: 4px;
+    background-color: #15161d;
+    border-radius: 5px;
+    overflow: unset;
+    color: white;
+    width: 285px;
+    position: relative;
+    height: 50px;
+    font-size: 20px;
+    -webkit-box-shadow: 0 0 16px 0 rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 16px 0 rgb(255 255 255 / 3%);
+    transition: 0.1s ease;
+  }
+
+  .ck-button label {
+    float: left;
+    width: 100%;
+    height: 100%;
+    line-height: 44px;
+  }
+
+  .ck-button label span {
+    text-align: center;
+    padding: 3px 0px;
+    display: block;
+  }
+  .ck-button label input {
+    position: absolute;
+    top: -20px;
+  }
+  .ck-button input:checked + span {
+    background-color: #092309;
+    text-decoration: line-through;
+    color: green;
+  }
+  .no-products {
+  }
+
+  .testDiv {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+  }
+  .input {
+    background-color: #1e1e1e !important;
+    width: 300px;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid rgb(24, 24, 24);
+    position: absolute;
+    right: 45px;
+    top: 50px;
+    z-index: 1000;
+  }
+  .input-minified {
+    top: 8px;
+    right: 8px;
+  }
+  .searchbar {
+    display: none;
+  }
+  .render-list-btn {
+    display: none;
+  }
+  .sync-icon-wrapper {
+    position: absolute;
+    right: 350px;
+    margin-top: 5px;
+  }
+
+  .sync-minified {
+    margin-top: 12px;
+  }
+
+  .sync-icons {
+    margin-right: 5px;
+    transition: 0.5s ease;
+  }
+
+  .icon-rotate {
+    transform: rotate(360deg);
+  }
+
+  .icon-touch-container {
+    width: 40px;
+    height: 40px;
+  }
+
+  .recipe-wrapper {
+    width: 200px;
+    height: 250px;
+    margin-right: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .recipe-image {
+    position: relative;
+    width: auto;
+    height: 100%;
+  }
+
+  .recipe-name {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    bottom: 45px;
+    background-color: #191919ad;
+    color: rgb(242, 242, 242);
+    text-align: center;
+    line-height: 45px;
+  }
+
+  .recipe-name-zubereitung {
+    position: relative;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .recipe-image-wrapper {
+    width: 95%;
+    min-width: 330px;
+    height: 30%;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+  }
+
+  .zubereitung-recipe-image {
+    position: relative;
+    width: auto;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  .main-wrapper {
+    justify-content: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 100%;
+    max-height: 600px;
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .new-product-field {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+  }
+  .static-description {
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #313131;
+    padding-top: 10px;
+  }
+  .edit-zubereitung-btn {
+    height: 35px;
+    margin-top: 0px;
+    float: right;
+    margin-right: -10px;
+    position: relative;
+    right: 10px;
+    width: 120px;
+  }
+  .group-name-zubereitung {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  .input-mobile {
+    background-color: rgb(24, 24, 24) !important;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(28 28 28);
+    position: relative;
+    font-size: 15px;
+    z-index: 1;
+    display: block;
+    transition: 0.2s ease;
+  }
+  .steps-wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 100px;
+  }
+  .step-counter {
+    position: relative;
+    top: 15px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: #3f4297;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .step-individual-wrapper {
+    width: 100%;
+    height: auto;
+    background-color: rgb(33 34 43);
+    margin-bottom: 10px;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+  .steps-wrapper span {
+    position: absolute;
+    right: 35px;
+    width: 65px;
+    display: none;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(63 66 151 / 39%);
+    border-radius: 5px;
+    z-index: 10000;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .span-active {
+    display: flex !important;
+  }
+  .step {
+    position: relative;
+    margin: 10px;
+  }
+  .steps-wrapper img {
+    z-index: 10000;
+  }
+  .textarea-gen {
+    background-color: rgb(24, 24, 24) !important;
+    width: 100%;
+    height: 180px;
+    max-height: 180px;
+    min-height: 180px;
+    border-radius: 5px;
+    border: 1px solid rgb(36 36 36);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+  }
+  .modal-wrapper p {
+    color: white;
+    padding: 30px 0px 20px 0px;
+  }
+  .add-step-btn {
+    width: 45px;
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .no-content-icon {
+    width: 25%;
+  }
+  .no-content-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 100px;
+  }
+
+  .no-content-wrapper p {
+    font-size: 15px;
+  }
+}

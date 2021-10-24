@@ -1,0 +1,15 @@
+{
+    "name": "Baselist",
+    "short_name": "Baselist",
+    "start_url":".",
+    "display":"standalone",
+    "background_color":"#000000",
+    "description":"List App",
+    "icons": [
+        {
+            "src": "./assets/icons/appicon.png",
+            "sizes": "512x512",
+            "type":"image/png"
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+@media screen and (min-width: 1194px) {
+  .basic-container {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0%;
+  }
+
+  .left {
+    left: 0;
+    background: linear-gradient(
+      153deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgb(0 45 178) 25%,
+      rgb(84 91 207) 72%
+    );
+  }
+
+  .cart-index {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .img-cart {
+    width: 300px;
+  }
+
+  .index-font {
+    font-weight: 600;
+    font-size: 28px;
+    width: 400px;
+  }
+
+  .logo-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2.9px;
+  }
+  .logo-font:hover {
+    cursor: pointer;
+  }
+
+  .up {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+  }
+
+  /* ________________________________________________ */
+
+  .right {
+    right: 0;
+    background-color: #121212;
+  }
+
+  .login-wrapper {
+    width: 60%;
+    height: 500px;
+    min-width: 300px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    border-radius: 5px;
+  }
+
+  .login-font {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .input-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+  .wrong-creds {
+    width: 100%;
+    line-height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(199, 91, 91);
+    text-align: center;
+    box-sizing: inherit;
+    margin-bottom: 10px;
+    height: 0px;
+    transition: 0.2s ease;
+    display: none;
+    overflow: hidden;
+  }
+
+  .creds__extended {
+    height: 40px;
+  }
+
+  .mobile-login-header span {
+    display: none;
+  }
+  .mobile-login-header {
+    display: none;
+  }
+  .logo {
+    width: 200px;
+    margin: 10px;
+  }
+}

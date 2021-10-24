@@ -1,0 +1,45 @@
+@media screen and (max-width: 1194px) {
+  .bottom-navigator {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: #21222b;
+    width: 100%;
+    z-index: 10000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navigators {
+    width: 25%;
+    height: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-navigation-icons {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(113deg)
+      brightness(104%) contrast(108%);
+  }
+  .large {
+    width: 30px;
+  }
+  .small {
+    width: 20px;
+  }
+  .xsmall {
+    width: 10px;
+  }
+  .active {
+    filter: invert(24%) sepia(30%) saturate(11573%) hue-rotate(205deg)
+      brightness(70%) contrast(147%);
+  }
+}
+
+@media screen and (min-width: 1194px) {
+  .bottom-navigator {
+    display: none;
+  }
+}

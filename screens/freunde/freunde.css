@@ -1,0 +1,92 @@
+@media screen and (min-width: 1194px) {
+  .friend-wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(33 35 43);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .friend-request-wrapper {
+    margin-top: 10px;
+  }
+  .friend-wrapper p {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-bottom: 20px;
+    left: 20px;
+    font-size: 17px;
+  }
+  .friend-edit-icon {
+    position: absolute;
+    right: 5px;
+    width: 65px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(63 66 151 / 39%);
+    border-radius: 5px;
+    z-index: 10000;
+    height: 40px;
+    margin-top: 0px;
+  }
+
+  .friend-profile-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .delete-friend-font {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+  .no-content-icon {
+    width: 25%;
+  }
+  .no-content-wrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    padding-bottom: 150px;
+  }
+
+  .no-content-wrapper p {
+    font-size: 15px;
+  }
+  .buffer {
+    margin-top: 100px;
+    width: 90%;
+    overflow: hidden;
+  }
+  .add-margin-right {
+    right: 28px;
+  }
+  .gen-input p {
+    color: rgb(87, 87, 87);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+  }
+  .divider {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #3e3e3e;
+    /* position: relative; */
+    /* margin: 20px 38px 1px 7px; */
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+}
